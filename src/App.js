@@ -15,13 +15,13 @@ const App = () =>{
   }
 
 
-  return(
-    <div className="main">
-      <button onClick={addcount}>+</button>
-      <h1> {counter}</h1>
-      <button onClick={subCount}>-</button>
-    </div>
-  )
+  return (
+      <div className={'main'}>
+        <button onClick={addcount}>+</button>
+        <h1> {counter}</h1>
+        <button onClick={subCount}>-</button>
+      </div>
+  );
 }
 
 
